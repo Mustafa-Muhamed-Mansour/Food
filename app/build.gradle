@@ -53,7 +53,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
 
 
-
     //Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.google.code.gson:gson:2.8.6'
@@ -75,6 +74,6 @@ dependencies {
     implementation 'io.reactivex.rxjava2:rxjava:2.2.17'
     implementation 'com.squareup.retrofit2:adapter-rxjava2:2.7.1'
 
-    //Shimmer
-    implementation 'com.facebook.shimmer:shimmer:0.5.0'
+    //Circle
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
 }
